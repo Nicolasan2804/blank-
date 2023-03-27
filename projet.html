@@ -1,15 +1,23 @@
-<!DOCTYPE html>
-
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>BigUltraPageWeb</title>
-        
-    </head>
-
-    <body>
-        <p> Contenu de la page</p>
-	<script> document.write("this is identity card"); <script>
-        <script src="./projet.js"></script>
-    </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Effets divers en Javascript</title>
+    <script type="text/javascript">
+function setColor (color) {
+  document.getElementById("body").style.backgroundColor = color;
+  return 0;
+}
+    </script>
+  </head>
+<body id="body">
+  <p>
+    <button id="rouge" onclick="setColor('red');">rouge</button>
+    <button id="vert" onclick="setColor('green');">vert</button>
+    <button id="bleu" onclick="setColor('blue');">bleu</button>
+    <button id="blanc" onclick="setColor('white');">blanc</button>
+    <button id="noir" onclick="setColor('black');">noir</button>
+    <button id="gris" onclick="setColor('gray');">gris</button>
+  </p>
+</body>
 </html>
