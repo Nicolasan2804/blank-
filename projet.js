@@ -22,4 +22,4 @@ person1,salutation();
 const person2 = new Person("Sylvain",23);
 person2,salutation();
 
-MDR
+
