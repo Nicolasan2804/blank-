@@ -1,5 +1,5 @@
 class Person {
-    constructor(nom, age = 0) {
+    constructor(nom, age = 0 {
         this.nom = nom;
         this.age = age;
         this.ismajeur = (this.age >= 18);
@@ -7,7 +7,7 @@ class Person {
 
     }
 
-    salutation() {
+    salutation( {
         if (this.ismajeur) {
             console.log("Bonjour" + this.nom + ", tu as" + this.age + " ans donc tu es majeur.");
         }
